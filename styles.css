@@ -1,0 +1,74 @@
+#showcase-text-container {
+  margin-top: 15vh;
+}
+#showcase-img {
+  max-width: 100%;
+  max-height: 80vh;
+  margin-left: auto;
+  object-fit: contain;
+}
+#big-title-1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.carousel-controls {
+  padding: 20px;
+}
+
+.phone-img {
+  max-width: 100%;
+  max-height: 80vh;
+  margin-left: auto;
+  object-fit: contain;
+}
+
+.card-detail-text {
+  font-size: 18px;
+}
+
+html {
+  font-size: 16px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+/* small devices */
+@media (min-width: 576px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+
+  .feature-section {
+    margin-bottom: 150px;
+  }
+  .mb-md-med {
+    margin-bottom: 100px;
+  }
+  /* #showcase-text-container {
+    width: 50%;
+  } */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  html {
+    font-size: 22px;
+  }
+}
